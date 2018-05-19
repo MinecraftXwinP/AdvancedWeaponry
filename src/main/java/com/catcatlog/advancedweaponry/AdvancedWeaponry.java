@@ -12,7 +12,7 @@ public class AdvancedWeaponry
 {
 	public final static String MODID = "advancedweaponry";
 	public final static String NAME = "Advanced Weaponry";
-	public final static String VERSION = "0.0.0";
+	public final static String VERSION = "1.0.0";
 
 	@SidedProxy(serverSide = "com.catcatlog.advancedweaponry.CommonProxy",clientSide = "com.catcatlog.advancedweaponry.client.ClientProxy")
 	public static CommonProxy proxy;

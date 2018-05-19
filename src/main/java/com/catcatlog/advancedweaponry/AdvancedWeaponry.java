@@ -22,11 +22,9 @@ public class AdvancedWeaponry
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		MinecraftForge.EVENT_BUS.register(proxy);
+		proxy.preInit(event);
 	}
 
 	@EventHandler
-	public void init(FMLInitializationEvent event)
-	{
-
-	}
+	public void init(FMLInitializationEvent event) {}
 }

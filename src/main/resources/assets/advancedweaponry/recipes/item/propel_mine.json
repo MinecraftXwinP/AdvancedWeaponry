@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "advancedweaponry:propel_mine"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:piston"
+    },
+    "b": {
+      "item": "minecraft:tnt"
+    }
+  }
+}
